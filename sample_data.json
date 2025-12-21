@@ -1,0 +1,60 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Alice Johnson",
+      "email": "alice@example.com",
+      "age": 28,
+      "department": "Engineering",
+      "skills": ["Python", "JavaScript", "AWS"],
+      "active": true,
+      "profile": {
+        "bio": "Full-stack developer with 5 years experience",
+        "location": "San Francisco",
+        "social": {
+          "github": "alice-dev",
+          "linkedin": "alice-johnson"
+        }
+      }
+    },
+    {
+      "id": 2,
+      "name": "Bob Smith",
+      "email": "bob@example.com",
+      "age": 32,
+      "department": "Marketing",
+      "skills": ["SEO", "Content Marketing", "Analytics"],
+      "active": true,
+      "profile": {
+        "bio": "Digital marketing specialist",
+        "location": "New York",
+        "social": {
+          "twitter": "bob_marketing",
+          "linkedin": "bob-smith-marketing"
+        }
+      }
+    },
+    {
+      "id": 3,
+      "name": "Carol Davis",
+      "email": "carol@example.com",
+      "age": 26,
+      "department": "Design",
+      "skills": ["UI/UX", "Figma", "Adobe Creative Suite"],
+      "active": false,
+      "profile": {
+        "bio": "Creative designer passionate about user experience",
+        "location": "Los Angeles",
+        "social": {
+          "dribbble": "carol_designs",
+          "behance": "carol-davis"
+        }
+      }
+    }
+  ],
+  "metadata": {
+    "total_users": 3,
+    "last_updated": "2024-01-15T10:30:00Z",
+    "version": "1.0"
+  }
+}
